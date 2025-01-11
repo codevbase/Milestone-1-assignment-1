@@ -138,13 +138,33 @@
     
 
 }
-.v-btn:hover{
+btn:hover{
     background-color: #d9e22ee0;
 }
 
-.v-btn{
+ .btn-1{
     color: #C6E4D6;
     background-color:#5490F5;
+    border: none;
+    border-radius: 10px;
+    width: 110px;
+    height: 33px;
+    
+}
+
+ .btn-2{
+    color: #C6E4D6;
+    background-color: #09A15C;
+    border: none;
+    border-radius: 10px;
+    width: 110px;
+    height: 33px;
+    
+}
+
+ .btn-3{
+    color: #C6E4D6;
+    background-color: #FFC239;
     border: none;
     border-radius: 10px;
     width: 110px;
