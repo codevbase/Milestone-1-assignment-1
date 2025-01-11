@@ -323,3 +323,33 @@ btn:hover{
     padding-bottom: 80px;
     padding-top: 60px;
 }
+
+
+.ft-content{
+    width: 1536px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #adbedb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-top: 100px;
+}
+
+.icons a:hover{
+    background-color: #dba72c;
+}
