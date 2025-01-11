@@ -57,7 +57,7 @@
 
 }
 
-.banner .btn{
+.btn{
     color: #C6E4D6;
     background-color:#006A50;
     border: none;
@@ -65,7 +65,7 @@
     width: 260px;
     height: 53px;
 }
-.banner .btn:hover{
+.btn:hover{
     background-color: #8e8111ad;
 }
 .bd-2-container{
@@ -92,6 +92,9 @@
     /* padding: 10px; */
 
 }
+.feature-title{
+    font-size: xx-large;
+}
 
 .feature-card{
     background-color:rgba(202, 192, 192, 0.434);
@@ -99,4 +102,52 @@
     height: 150px;
     padding: 20px;
     border-radius: 10px;
+}
+
+.vision-cards{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card{
+    background-color:#adbedb;
+    
+    width: 270px;
+    height: 180px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.vision-content{
+    width: 1229px;
+    height: fit-content;
+    display: flex;
+    /* justify-content:space-around; */
+    
+    
+    
+    flex-direction: column;
+}
+
+.vision-container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+
+}
+.v-btn:hover{
+    background-color: #d9e22ee0;
+}
+
+.v-btn{
+    color: #C6E4D6;
+    background-color:#5490F5;
+    border: none;
+    border-radius: 10px;
+    width: 110px;
+    height: 33px;
+    
 }
