@@ -10,7 +10,7 @@
     justify-content:space-between;
     align-items: center;
     /* flex-direction: column; */
-    background-color: aquamarine;  
+    /* background-color: aquamarine;   */
     list-style: none;  
 }
 
@@ -244,7 +244,8 @@ btn:hover{
 .donation-container{
     margin: 30px;
     border: none;
-    background-color: #98b9f0;
+    border-radius: 10px;
+    background-color: #f7f8faee;
     width: 1200px;
     height: fit-content;
     display: flex;
@@ -255,7 +256,7 @@ btn:hover{
 }
 
 .amount-card{
-    background-color: #09A15C;
+    background-color:  rgb(223, 226, 228);
     margin: 10px;
     border: 10px;
     border-radius: 10px;
@@ -267,10 +268,58 @@ btn:hover{
 }
 
 .other-amount-card{
-    background-color: rgb(42, 150, 245);
+    background-color: rgb(223, 226, 228);
     width: 720px;
     height: 40px;
     margin: 10px;
     text-align: center;
     font-size: x-large;
+    border: none;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.component{
+    background-color: #C6E4D6;
+    width: 1180px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.component input{
+    background-color: #f9f5f5;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    
+    width: 576px;
+    height: 40px;
+    padding-left: 60px;
+    font-size:large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.component button{
+    background-color: #006A50;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    width: 100px;
+    height: 40px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.subscribe-bar{
+    display: flex;
+    padding-bottom: 80px;
+    padding-top: 60px;
 }
