@@ -65,3 +65,35 @@
 .banner .btn:hover{
     background-color: #8e8111ad;
 }
+.bd-2-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bd-2-content{
+    width: 1250px;
+    height: 300px;
+    /* background-color: #a99292; */
+    
+    
+}
+.feature-card-container{
+    display: flex;
+    justify-content: space-between;
+    
+    border: 10px;
+    padding-top: 30px;
+    /* padding: 10px; */
+
+}
+
+.feature-card{
+    background-color:rgba(202, 192, 192, 0.434);
+    width: 170px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 10px;
+}
