@@ -40,10 +40,12 @@
 .banner{
     display: flex;
     justify-content: center;
+    
 }
 
 .banner-content{
     border: 15px;
+    border-radius: 20px;
     padding: 15px 15px;
     background-color: #C6E4D6;
     display: flex;
@@ -56,6 +58,7 @@
 }
 
 .banner .btn{
+    color: #C6E4D6;
     background-color:#006A50;
     border: none;
     border-radius: 10px;
